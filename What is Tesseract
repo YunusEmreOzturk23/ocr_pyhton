@@ -1,0 +1,13 @@
+Tesseract Nedir ve Ne İş Yapar?
+Tesseract, Google tarafından geliştirilen açık kaynaklı bir OCR motorudur.
+Bir görüntü üzerinde yer alan yazıları tespit ederek, bunları makine tarafından okunabilir metin formatına dönüştürür.
+
+Çalışma Mantığı:
+1-Görüntü İşleme: Tesseract, görüntüyü analiz eder ve bu görüntüdeki yazıları tanımaya çalışır.
+Genellikle bu işlem, görüntünün gri tonlamaya çevrilmesi ve ardından yazı bloklarının tespit edilmesiyle başlar.
+2-Metin Tanıma: Her bir karakterin geometrik formunu tanır ve bunları karşılaştırarak hangi karakter olduğunu belirler.
+3-Çıktı: Görüntü üzerinde tanınan tüm metinler, bir dizi olarak döndürülür ve kullanıcının işlemesine hazır hale gelir.
+
+Tesseract, özellikle taranmış belgeleri, resimleri ve PDF'leri metin formatına dönüştürmek için yaygın olarak kullanılır.
+Bu süreçte karakterlerin boyutu, yazı tipi, hizalaması gibi faktörler göz önünde bulundurularak metinler algılanır.
+ADIMLAR:
